@@ -55,10 +55,11 @@ Linux Installation (Debian/Ubuntu)
 OSX Installation
 ----------------
 
-Note:
+**Please Note**:
 
-    - The following will assume you are cloning the sourcecode to ~/Projects/coding-campus-november-2015.  If you are cloning to a different location, you will need to adjust these instructions accordingly.
-    - A dollar sign ($) indicates a terminal prompt, as your user, not root.
+- The following will assume you are cloning the sourcecode to ~/Projects/coding-campus-november-2015.  If you are cloning to a different location, you will need to adjust these instructions accordingly.
+
+- A dollar sign ($) indicates a terminal prompt, as your user, not root.
 
 1.  Clone the source::
 
