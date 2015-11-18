@@ -9,7 +9,7 @@ def email_help():
     """
     print('{}'.format('*' * 62))
     print('* Provide an email address to send a generic email to.{}*'.format(' ' * 7))
-    print('* Example: python functional.py someone@somehwere.com{}*'.format(' ' * 16))
+    print('* Example: python functional.py someone@somehwere.com{}*'.format(' ' * 8))
     print('* Yields: Expect a message detailing the email that was sent *')
     print('{}'.format('*' * 62))
     sys.exit()
@@ -72,6 +72,6 @@ if __name__ == '__main__':
     email_address = sys.argv[1]
     try:
         send_mail(email_address)
-    except KeyError:
+    except (KeyError, IndexError):
         error_msg = 'The database does not contain an entry for "{}".  Please try again.'
         print(error_msg.format(email_address))

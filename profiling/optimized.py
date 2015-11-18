@@ -8,7 +8,7 @@ def fib_help():
     Simple helper to explain how to use the script.
     """
     print('{}'.format('*' * 62))
-    print('* Provide an integer index to get the nth Fibonacci number.{}*'.format(' ' * 5))
+    print('* Provide an integer index to get the nth Fibonacci number.{}*'.format(' ' * 2))
     print('* Example: python optimized.py 8{}*'.format(' ' * 29))
     print('* Yields: 21{}*'.format(' ' * 49))
     print('{}'.format('*' * 62))
