@@ -6,8 +6,8 @@ import os
 # Simple helper to explain how to use the script.
 def fib_help():
     print('{}'.format('*' * 62))
-    print('* Provide an integer index for the nth Fibonacci number.%s*' % (' ' * 5))
-    print('* Example: python bad_fibonacci.py 8%s*' % (' ' * 29))
+    print('* Provide an integer index to get the nth Fibonacci number.%s*' % (' ' * 2))
+    print('* Example: python bad_fibonacci.py 8%s*' % (' ' * 25))
     print('* Yields: 21%s*' % (' ' * 49))
     print('{}'.format('*' * 62))
     sys.exit()
