@@ -47,11 +47,6 @@ Linux Installation (Debian/Ubuntu)
 
         $ workon coding_campus
 
-8.  Install the required Python libraries (ensure you're within the new virtual environment).::
-
-        (coding_campus)$ pip install -r ~/Projects/coding-campus-november-2015/requirements.pip
-
-
 OSX Installation
 ----------------
 
@@ -98,7 +93,3 @@ OSX Installation
 9.  Activate the virtualenv::
 
         $ workon coding_campus
-
-10.  Install the required Python libraries (ensure you're within the new virtual environment).::
-
-        (coding_campus)$ pip3 install -r ~Projects/coding-campus-november-2015/requirements.pip
